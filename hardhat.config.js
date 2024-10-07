@@ -19,18 +19,18 @@ module.exports = {
       url: 'http://127.0.0.1:8545'
     },
     mainnet: {
-      url: 'https://rpc-mainnet.uniultra.xyz',
+      url: 'https://rpc-mainnet.sesa.network',
       chainId: 39
     },
     testnet: {
-      url: 'https://rpc-nebulas-testnet.uniultra.xyz',
+      url: 'https://rpc-nebulas-testnet.sesa.network',
       chainId: 2484,
       accounts: [`0x${PRIVATE_KEY}`]
     }
   },
   etherscan: {
     apiKey: {
-      u2uTestnet: API_KEY
+      sesaTestnet: API_KEY
     }
   },
   contractSizer: {
